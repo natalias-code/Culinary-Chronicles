@@ -1,0 +1,119 @@
+*
+{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mansalva', cursive;
+}
+
+body
+{
+   
+    background: linear-gradient(white, green);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+.text-container
+{  
+    max-width: 700px; 
+    text-shadow: 2px 2px gray;
+    letter-spacing:  2px;
+    text-align-last: center;
+}
+  
+.list-items
+{
+    display: flex;
+    justify-content: space-around;
+    color:dimgray;
+    text-shadow: 2px 2px black;
+
+}
+li
+{
+    list-style-type: none;
+}
+ 
+h3
+{
+    display: flex;
+    justify-content: center;
+    color:dimgray
+}
+h2
+{
+    display: flex;
+    justify-content: center;
+}
+
+img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex; 
+}
+
+img:hover
+{
+    opacity: 70%;
+}
+
+.child-recipes
+{
+  display: flex;
+  justify-content:space-around;
+  
+}
+  
+a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover
+{
+    color: dimgray;
+}
+
+.hyperlink-list
+{ 
+    list-style-type: none; 
+}
+
+.flyingText {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+   }
+   .flyingText h1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: left;
+   
+    /* Apply animation to this element */	
+    animation: flyingText 10s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @keyframes flyingText {
+    0%   { 
+    transform: translateX(200%); 		
+    }
+    100% { 
+    transform: translateX(0%); 
+    }
+   }
