@@ -1,75 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Meta data to support legacy browsers to remain responsive-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
     <link href="style.css" rel="stylesheet" />
+
+    <!--Font Awesome Icons JS-->
+    <script
+      src="https://kit.fontawesome.com/e105e8d28d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Page Title-->
     <title>Culinary Chronicles</title>
   </head>
   <body>
-    <h1>Culinary Chronicles: Showcasing the Best Food in the World</h1>
-    <h3>A website by: PARTNER 1 & PARTNER 2</h3>
-
+    <div class="flyingText">
+      <h1>Culinary Chronicles: Showcasing the Best Food in the World</h1>
+    </div>
+    <h2>A website by: PARTNER 1 & PARTNER 2</h2>
+    <div class="row">
+      <div class="text-container">
+        <div class="text-item">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+      </div>
+    </div>
     <!-- Create a list of your favorite cuisines and pictures -->
-    <div>
-      <ul>
-        <li>Greek</li>
-        <li>Italian</li>
-        <li>Chinese</li>
-        <li>Polish</li>
+    <div class="list-container">
+      <ul class="list-items">
+        <li><i class="fa-solid fa-utensils"></i> Greek</li>
+        <li><i class="fa-solid fa-utensils"></i> Italian</li>
+        <li><i class="fa-solid fa-utensils"></i> Chinese</li>
+        <li><i class="fa-solid fa-utensils"></i> Polish</li>
       </ul>
     </div>
-  <!--For flexbox-->
-    <div class="recipes">
-      <h2>Click For Recipes !</h2>
+ 
+    <h2>Click For Recipes !</h2>
 
-      <ul class="child-recipes">
-        <li class="hyperlink-list">
-          <a
-            class="hyperlink-list"
-            href="https://www.gousto.co.uk/cookbook/recipes/halloumi-chips-tzatziki-naan-wrap"
-          >
-            Halloumi Gyros </a
-          ><img
-            src="https://www.deliciousmagazine.co.uk/wp-content/uploads/2021/07/02.Delicious-BBQ-gyros-960-768x960.jpg"
-            alt="Halloumi Gyros"
-          />
-        </li>
-        <li class="hyperlink-list">
-          <a
-            class="hyperlink-list"
-            href="https://www.dinneratthezoo.com/seared-scallops/"
-            >Pan Fried Scallops</a
-          ><img
-            src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/bac72cfeb1d14287b74cd05716e1af32/seafoodfinalFB.jpg"
-            alt="Pan Fried Scallops"
-          />
-        </li>
-        <li class="hyperlink-list">
-          <a
-            class="hyperlink-list"
-            href="https://simply-delicious-food.com/easy-vegetable-chow-mein/"
-            >Vegetable Chow Mein</a
-          >
-          <img
-            src="https://thewoksoflife.com/wp-content/uploads/2018/06/vegetable-chow-mein-16.jpg"
-            alt="Vegetable Chow Mein"
-          />
-        </li>
-        <li class="hyperlink-list">
-          <a
-            class="hyperlink-list"
-            href="https://www.polishyourkitchen.com/sauerkraut-and-mushroom-pierogi-pierogi-z-kapusta-i-grzybami/"
-          >
-            Pierogi</a
-          >
-          <img
-            src="https://www.wearesovegan.com/wp-content/uploads/2022/03/veganmushroompierogirecipeH1.jpg"
-            alt="Pierogi"
-          />
-        </li>
-      </ul>
+    <div class="child-recipes">
+      <div class="hyperlink-list">
+        <a
+          class="hyperlink-list"
+          href="https://www.gousto.co.uk/cookbook/recipes/halloumi-chips-tzatziki-naan-wrap"
+        >
+          Halloumi Gyros </a
+        ><img
+          src="https://www.deliciousmagazine.co.uk/wp-content/uploads/2021/07/02.Delicious-BBQ-gyros-960-768x960.jpg"
+          alt="Halloumi Gyros"
+        />
+      </div>
+      <div class="hyperlink-list">
+        <a
+          class="hyperlink-list"
+          href="https://www.dinneratthezoo.com/seared-scallops/"
+          >Pan Fried Scallops</a
+        ><img
+          src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/bac72cfeb1d14287b74cd05716e1af32/seafoodfinalFB.jpg"
+          alt="Pan Fried Scallops"
+        />
+      </div>
+      <div class="hyperlink-list">
+        <a
+          class="hyperlink-list"
+          href="https://simply-delicious-food.com/easy-vegetable-chow-mein/"
+          >Vegetable Chow Mein</a
+        >
+        <img
+          src="https://thewoksoflife.com/wp-content/uploads/2018/06/vegetable-chow-mein-16.jpg"
+          alt="Vegetable Chow Mein"
+        />
+      </div>
+      <div class="hyperlink-list">
+        <a
+          class="hyperlink-list"
+          href="https://www.polishyourkitchen.com/sauerkraut-and-mushroom-pierogi-pierogi-z-kapusta-i-grzybami/"
+        >
+          Pierogi</a
+        >
+        <img
+          src="https://www.wearesovegan.com/wp-content/uploads/2022/03/veganmushroompierogirecipeH1.jpg"
+          alt="Pierogi"
+        />
+      </div>
     </div>
   </body>
 </html>
